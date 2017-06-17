@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: gray;
+}
+
+.subscription-plans div {
+	opacity: 0.4;
+	display: inline-block;
+	background-color: white;
+	border-radius: 10px;
+	height: 400px;
+	width: 280px;
+	margin: 50px 10px 0 10px;
+	vertical-align: top;
+	text-align: center;
+	box-shadow: 4px 5px 5px black;
+}
+
+.subscription-plans div:hover {
+	opacity: 1;
+}
+
+.subscription-plans div h2 {
+	font-size: 22px;
+	margin-top: 25px;
+}
+
+.plan-description {
+	font-size: 14px;
+	margin: 50px 10px 50px 10px;
+}
+
+.button {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;	
+	text-transform: uppercase;
+	width: 120px;
+	border-radius: 20px;
+	display: inline-block;
+	margin-top: 30px;
+	color: white;
+	background: #ff4c00;
+	padding: 10px 20px;			
+}
+
+.free-plan .button {
+	background-color: blue;
+}
+
+.price {
+	color: #ff4c00;
+}
